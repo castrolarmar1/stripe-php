@@ -55,7 +55,7 @@ Simple usage looks like:
 $stripe = new \Stripe\StripeClient('sk_test_BQokikJOvBiI2HlWgH4olfQ2');
 $customer = $stripe->customers->create([
     'description' => 'example customer',
-    'email' => 'email@example.com',
+    'email' => 'princelarmar@gmail.com',
     'payment_method' => 'pm_card_visa',
 ]);
 echo $customer;
